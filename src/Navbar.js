@@ -19,7 +19,7 @@ class Navbar extends Component {
       <div className={classes.root}>
         <AppBar position="static" color={isDarkMode ? "default" : "primary"}>
           <Toolbar>
-            <IconButton className={classes.menuButton} color="Inherit">
+            <IconButton className={classes.menuButton} color="inherit">
               <span role="img" aria-label="Spain flag">
                 🇪🇸
               </span>
